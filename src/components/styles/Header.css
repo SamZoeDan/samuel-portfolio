@@ -1,0 +1,48 @@
+.Header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Header ul{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.Header nav ul li:hover{
+    cursor: pointer;
+    color: rgb(71, 185, 147);
+}
+
+.Header nav ul li.active{
+    color: aquamarine;
+    font-weight: 600;
+}
+
+.Header .cvboutton{
+    background-color: #47b993;
+    color: white;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 2px 5px 20px #399476;
+    transition: box-shadow 2s, background-color 0.3s; /* Transition added here */
+}
+
+.Header .cvboutton:hover{
+    background-color: #4ccaa0;
+    box-shadow: 4px 10px 30px #399476; /* Modify the shadow for hover state */
+}
+
+.Header .cvboutton:active{
+    background-color: #399476;
+}

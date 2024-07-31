@@ -1,0 +1,32 @@
+.List{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.List ul{
+    display: flex;
+    align-items:s;
+    gap: 4rem;
+
+}
+li{
+    width: 3rem;
+}
+.l1{
+
+    height: 9rem;
+    background-color: blue;
+}
+
+.l2{
+
+    height: 16rem;
+    background-color: rgb(255, 0, 157);
+}
+
+.l3{
+
+    height: 3rem;
+    background-color: rgb(123, 255, 0);
+}
