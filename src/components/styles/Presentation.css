@@ -1,0 +1,82 @@
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    background-color: #1c1c1e;
+    color: white;
+    border-radius: 1rem;
+}
+
+.presentation-text{
+    max-width: 50%;
+}
+
+.presentation-text h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.presentation-text h1 span{
+    color: #47b993;
+}
+
+.presentation-text h2{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.presentation-text p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact{
+    background-color: #47b993;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: box-shadow 2s, background-color 0.3s;
+}
+
+.contact:hover{
+    background-color: #4ccaa0;
+    box-shadow: 0 0 15px rgba(71, 185, 147, 0.5);
+}
+
+.contact:active{
+    background-color: #399476;
+}
+
+.social{
+    margin-top: 1rem;
+}
+
+.social a{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.social a:hover{
+    color: #4ccaa0;
+}
+
+
+
+.social a img{
+    width: 30px;
+    margin-right: 1rem;
+}
+
+.social a img:hover{
+    opacity: 0.8;
+    color: #4ccaa0;
+}
+
+.presentation-image img {
+    border-radius: 1rem;
+  }
