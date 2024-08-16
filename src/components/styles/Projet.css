@@ -1,0 +1,30 @@
+.recent-projects {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .recent-projects h2 {
+    margin-bottom: 20px;
+  }
+  
+  .recent-projects p {
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    width: 100%; /* Adjust as needed */
+    border-radius: 8px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: green; /* or any other color */
+  }
+  
+  /* Custom arrow styles if needed */
+  .slick-prev, .slick-next {
+    background-color: #000; /* Custom background */
+    border-radius: 50%;
+  }

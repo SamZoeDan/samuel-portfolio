@@ -35,12 +35,12 @@
     border-radius: 0.5rem;
     cursor: pointer;
     box-shadow: 2px 5px 20px #399476;
-    transition: box-shadow 2s, background-color 0.3s; /* Transition added here */
+    transition: box-shadow 2s, background-color 0.3s; 
 }
 
 .Header .cvboutton:hover{
     background-color: #4ccaa0;
-    box-shadow: 4px 10px 30px #399476; /* Modify the shadow for hover state */
+    box-shadow: 4px 10px 30px #399476; 
 }
 
 .Header .cvboutton:active{
